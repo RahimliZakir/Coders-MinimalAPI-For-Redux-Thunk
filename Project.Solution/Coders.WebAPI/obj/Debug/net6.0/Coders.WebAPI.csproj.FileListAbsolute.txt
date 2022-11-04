@@ -112,3 +112,10 @@ C:\Users\Zakir\Desktop\Coders-MinimalAPI-For-Redux-Thunk\Project.Solution\Coders
 C:\Users\Zakir\Desktop\Coders-MinimalAPI-For-Redux-Thunk\Project.Solution\Coders.WebAPI\obj\Debug\net6.0\Coders.WebAPI.pdb
 C:\Users\Zakir\Desktop\Coders-MinimalAPI-For-Redux-Thunk\Project.Solution\Coders.WebAPI\obj\Debug\net6.0\Coders.WebAPI.genruntimeconfig.cache
 C:\Users\Zakir\Desktop\Coders-MinimalAPI-For-Redux-Thunk\Project.Solution\Coders.WebAPI\obj\Debug\net6.0\ref\Coders.WebAPI.dll
+C:\Users\Zakir\Desktop\Coders-MinimalAPI-For-Redux-Thunk\Project.Solution\Coders.WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Zakir\Desktop\Coders-MinimalAPI-For-Redux-Thunk\Project.Solution\Coders.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Zakir\Desktop\Coders-MinimalAPI-For-Redux-Thunk\Project.Solution\Coders.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Zakir\Desktop\Coders-MinimalAPI-For-Redux-Thunk\Project.Solution\Coders.WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Zakir\Desktop\Coders-MinimalAPI-For-Redux-Thunk\Project.Solution\Coders.WebAPI\obj\Debug\net6.0\Coders.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Zakir\Desktop\Coders-MinimalAPI-For-Redux-Thunk\Project.Solution\Coders.WebAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Zakir\Desktop\Coders-MinimalAPI-For-Redux-Thunk\Project.Solution\Coders.WebAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
