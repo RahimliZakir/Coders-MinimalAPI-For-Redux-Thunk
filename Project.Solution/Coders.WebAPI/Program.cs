@@ -19,6 +19,16 @@ services.AddDbContext<CoderDbContext>(cfg =>
 
 services.AddAutoMapper(typeof(Program));
 
+services.AddCors(cfg =>
+{
+    cfg.AddPolicy("_allowAnyOrigins", p =>
+    {
+        p.AllowAnyHeader()
+         .AllowAnyMethod()
+         .AllowAnyOrigin();
+    });
+});
+
 services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
@@ -56,6 +66,10 @@ app.UseSwaggerUI(c =>
 });
 
 app.UseRouting();
+
+app.UseCors("_allowAnyOrigins");
+
+await app.Initialize();
 
 app.MapGet("/coders", async (CoderDbContext db) => Results.Ok(await db.Coders.ToListAsync()));
 app.MapGet("/coder/{id}", async (CoderDbContext db, int id) => await db.Coders.FindAsync(id) is not Coder coder ? Results.NotFound() : Results.Ok(coder));
