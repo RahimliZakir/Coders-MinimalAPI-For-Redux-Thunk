@@ -34,8 +34,8 @@ services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
-        Title = "API For Fetch",
-        Description = "Fruits' API For Fetch JavaScript",
+        Title = "Coders Min. API",
+        Description = "Coders Minimal API For Thunk (Redux & Redux-Toolkit)",
         //TermsOfService = new Uri("https://example.com/terms"),
         Contact = new OpenApiContact
         {
@@ -62,7 +62,7 @@ app.UseSwagger();
 
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API For Fetch V1");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Coders Min. API V1");
 });
 
 app.UseRouting();
